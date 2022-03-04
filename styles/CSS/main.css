@@ -3,6 +3,7 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 .sideBar {
@@ -15,8 +16,21 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 20em;
   height: 100vh;
+}
+
+#homeLogo {
+  font-weight: 900;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-size: 1.5em;
+  color: deepskyblue;
+  letter-spacing: 1px;
+  margin-top: 1.5em;
 }
 
 .user-content > * {
@@ -26,10 +40,6 @@ body {
 .user-content img {
   border-radius: 50%;
   width: 7em;
-}
-
-footer {
-  border: 2px solid green;
 }
 
 .navbar {
@@ -71,5 +81,28 @@ footer {
 
 .navbar li a:hover {
   text-decoration: underline;
-  color: #0074DE;
+  color: deepskyblue;
+}
+
+#pay {
+  border: none;
+  border-radius: 30px;
+  height: 3em;
+  width: 15em;
+  background-color: deepskyblue;
+  color: white;
+  letter-spacing: 1px;
+  font-size: 1em;
+  margin: 2em;
+  -webkit-transition: ease all .25s;
+  transition: ease all .25s;
+}
+
+#pay:hover {
+  -webkit-filter: saturate(0.75);
+          filter: saturate(0.75);
+}
+
+footer {
+  border: 2px solid green;
 }
