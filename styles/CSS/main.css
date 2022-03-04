@@ -4,10 +4,11 @@ body {
           box-sizing: border-box;
   margin: 0;
   font-family: 'Roboto', sans-serif;
+  color: #55585E;
 }
 
 .sideBar {
-  border-right: 2px solid gold;
+  border-right: 1px solid #55585E;
   background-color: azure;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -16,11 +17,15 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  padding-left: 2em;
   width: 20em;
+  height: 100%;
+  height: auto;
   height: 100vh;
+}
+
+.sideBar > * {
+  padding: 1em 0;
 }
 
 #homeLogo {
@@ -28,9 +33,20 @@ body {
   text-decoration: none;
   text-transform: lowercase;
   font-size: 1.5em;
-  color: deepskyblue;
-  letter-spacing: 1px;
-  margin-top: 1.5em;
+  color: #008cff;
+  letter-spacing: 2px;
+  margin-top: 1em;
+  padding-left: 1em;
+}
+
+.user-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .user-content > * {
@@ -39,70 +55,77 @@ body {
 
 .user-content img {
   border-radius: 50%;
-  width: 7em;
+  width: 6em;
 }
 
-.navbar {
+#greeting {
+  font-size: 1.2em;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+
+#username {
+  color: #008cff;
+}
+
+.cashblastr-info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  position: -webkit-sticky;
-  position: sticky;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.navbar {
   width: 100%;
-  top: 0;
-  border: 2px solid red;
 }
 
 .navbar ul {
-  overflow: hidden;
+  padding: 0;
   list-style-type: none;
 }
 
 .navbar li {
-  text-decoration: none;
+  margin: 1.2em 0;
 }
 
 .navbar li a {
   color: #55585E;
   text-decoration: none;
-  display: block;
-  letter-spacing: 2px;
+  letter-spacing: 1.5px;
   -webkit-transition: color .15s;
   transition: color .15s;
 }
 
 .navbar li a:hover {
-  text-decoration: underline;
-  color: deepskyblue;
+  color: #008cff;
 }
 
 #pay {
   border: none;
   border-radius: 30px;
   height: 3em;
-  width: 15em;
-  background-color: deepskyblue;
+  width: 16em;
+  background-color: #008cff;
   color: white;
   letter-spacing: 1px;
   font-size: 1em;
-  margin: 2em;
   -webkit-transition: ease all .25s;
   transition: ease all .25s;
 }
 
 #pay:hover {
-  -webkit-filter: saturate(0.75);
-          filter: saturate(0.75);
+  -webkit-filter: saturate(0.6);
+          filter: saturate(0.6);
 }
 
 footer {
-  border: 2px solid green;
+  font-size: .8em;
+  border-top: 1px solid #55585E;
+}
+
+footer a {
+  color: #008cff;
 }

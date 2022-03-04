@@ -8,8 +8,10 @@
    <link style>
    <link rel="stylesheet" href="./styles/CSS/main.css">
    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,900&display=swap');
    </style>
    <title>CashBlastr</title>
 </head>
@@ -20,29 +22,46 @@
       <div class="user-content">
          <img src="./assets/profilePic.jpg" alt="Profile picture">
          <!-- <span> `Hi, ${firstName}`</span> -->
-         <span> Hi, Noah</span>
-         <!-- <span>`@${username}`</span> -->
-         <span>@noahbrezel</span>
+         <div class="user-content-text">
+
+            <!-- <span id="greeting"> Hi, Noah</span> -->
+            <p id="greeting"> Hi, Noah</p>
+            <!-- <span>`@${username}`</span> -->
+            <!-- <span id="username">@noahbrezel</span> -->
+            <p id="username">@noahbrezel</p>
+         </div>
       </div>
-      <div class="cashblastr">
-         <!-- <span>`$ ${userBalance}`</span> -->
-         <span>$45.67</span>
+      <div class="cashblastr-info">
+         <!-- <span>`$ ${userBalance} in CashBlastr`</span> -->
+         <span class="info-balance">$45.67 in CashBlastr</span>
+         <span class="info-transfer">Transfer money</span>
+      </div>
+      <div class="cashblastr-CCinfo">
+         <span class="CCtitle">CashBlastr Credit Card</span>
+         <span class="CCsubtext">You're invited to apply</span>
+         <span ><a href="/">Learn more </a></span>
       </div>
       <div class="navbar">
          <ul>
-            <li><a href="#">Search</a></li>
-            <li><a href="#">Notifications</a></li>
-            <li><a href="#">Incomplete</a></li>
-            <li><a href="#">Statements</a></li>
-            <li><a href="#">Settings</a></li>
-            <li><a href="#">Help</a></li>
-            <li><a href="#">Logout</a></li>
+            <li><a href="/">Search</a></li>
+            <li><a href="/">Notifications</a></li>
+            <li><a href="/">Incomplete</a></li>
+            <li><a href="/">Statements</a></li>
+            <li><a href="/">Settings</a></li>
+            <li><a href="/">Help</a></li>
+            <li><a href="/">Logout</a></li>
          </ul>
       </div>
       <button id="pay"> Pay or Request </button>
    </div>
+   <footer> <span>
+         <a>Contact us </a>
+      </span>
+      <p>
+         © 2022 CashBlastr All Rights reserved
+   </footer>
+   </p>
 
-   <footer > © 2022 CashBlastr All Rights reserved</footer>
 </body>
 
 </html>
