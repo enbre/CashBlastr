@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,12 +9,40 @@
    <link rel="stylesheet" href="./styles/CSS/main.css">
    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
    <style>
-       @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
    </style>
    <title>CashBlastr</title>
 </head>
-<body>
-   Test
 
+<body>
+   <div class="sideBar">
+      <a id="homeLogo" href="#home">CashBlastr </a>
+      <div class="user-content">
+         <img src="./assets/profilePic.jpg" alt="Profile picture">
+         <!-- <span> `Hi, ${firstName}`</span> -->
+         <span> Hi, Noah</span>
+         <!-- <span>`@${username}`</span> -->
+         <span>@noahbrezel</span>
+      </div>
+      <div class="cashblastr">
+         <!-- <span>`$ ${userBalance}`</span> -->
+         <span>$45.67</span>
+      </div>
+      <div class="navbar">
+         <ul>
+            <li><a href="#">Search</a></li>
+            <li><a href="#">Notifications</a></li>
+            <li><a href="#">Incomplete</a></li>
+            <li><a href="#">Statements</a></li>
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Logout</a></li>
+         </ul>
+      </div>
+      <button id="pay"> Pay or Request </button>
+   </div>
+
+   <footer > Copyright 2022 CashBlastr</footer>
 </body>
+
 </html>

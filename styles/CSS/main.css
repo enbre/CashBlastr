@@ -1,3 +1,75 @@
 body {
   background-color: lightblue;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+}
+
+.sideBar {
+  border-right: 2px solid gold;
+  background-color: azure;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 20em;
+  height: 100vh;
+}
+
+.user-content > * {
+  padding: 1em;
+}
+
+.user-content img {
+  border-radius: 50%;
+  width: 7em;
+}
+
+footer {
+  border: 2px solid green;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: -webkit-sticky;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  border: 2px solid red;
+}
+
+.navbar ul {
+  overflow: hidden;
+  list-style-type: none;
+}
+
+.navbar li {
+  text-decoration: none;
+}
+
+.navbar li a {
+  color: #55585E;
+  text-decoration: none;
+  display: block;
+  letter-spacing: 2px;
+  -webkit-transition: color .15s;
+  transition: color .15s;
+}
+
+.navbar li a:hover {
+  text-decoration: underline;
+  color: #0074DE;
 }
