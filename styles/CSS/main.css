@@ -176,10 +176,15 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-left: 20%;
+}
+
+.main-feed-entry {
+  width: 70%;
+  border-bottom: 1px solid purple;
 }
 
 footer {
-  background-color: aliceblue;
   padding: 2em;
   font-size: .8em;
   border-top: 1px solid #55585E;

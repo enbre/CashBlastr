@@ -1,0 +1,75 @@
+{
+   "userName": "noahbrezel",
+   "firstName": "noah",
+   "lastName": "brezel",
+   "profilePic": "./profilePic_noah.jpg",
+   "email": "noahbrezel@gmail.com",
+   "password": "notagoodpassword",
+   "balance": 226.93,
+   "active": "true",
+   "pendingActivty": [{
+      "transactionID": "12123812",
+      "date": "02132022",
+      "amount": "$15.23",
+      "comments": "Thanks!",
+      "sentFrom": {
+         "userName": "noahbrezel",
+         "profilePic": "./profilePic_noah.jpg"
+      },
+      "sentTo": {
+         "userName": "lisapierce",
+         "profilePic": "./profilePic_lisa.jpg"
+      },
+      "like?": false,
+      "comment?": false
+   }],
+   "completedActivity": [{
+         "transactionID": "123129567",
+         "date": "02112022",
+         "amount": "$36.37",
+         "comments": "Pizza, yum!",
+         "sentFrom": {
+            "userName": "greghammond",
+            "profilePic": "./profilePic_greg.jpg"
+         },
+         "sentTo": {
+            "userName": "noahbrezel",
+            "profilePic": "./profilePic_noah.jpg"
+         },
+         "like?": true,
+         "comment?": false
+      },
+      {
+         "transactionID": "12364812",
+         "date": "02042022",
+         "amount": "$50.00",
+         "comments": "Love that movie!!!!",
+         "sentFrom": {
+            "userName": "noahbrezel",
+            "profilePic": "./profilePic_noah.jpg"
+         },
+         "sentTo": {
+            "userName": "rachelmorson",
+            "profilePic": "./profilePic_rachel.jpg"
+         },
+         "like?": true,
+         "comment?": false
+      },
+      {
+         "transactionID": "12312312",
+         "date": "01172022",
+         "amount": "$46.63",
+         "comments": "Great dinner!",
+         "sentFrom": {
+            "userName": "noahbrezel",
+            "profilePic": "./profilePic_noah.jpg"
+         },
+         "sentTo": {
+            "userName": "ryansilbom",
+            "profilePic": "./profilePic_ryan.jpg"
+         },
+         "like?": false,
+         "comment?": false
+      }
+   ]
+}

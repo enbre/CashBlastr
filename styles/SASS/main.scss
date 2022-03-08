@@ -208,17 +208,25 @@ body {
       // background-color: purple;
       height: 90%;
       flex-direction: column;
+      // display: flex;
+      // flex-direction: column;
+
+      margin-left: 20%;
+      // border-bottom: 1px solid $ltgrey;
+      // text-align: center;
+      &-entry {
+         width: 70%;
+         border-bottom: 1px solid purple;
+      }
    }
+
 
 }
 
 footer {
-   // margin-left: 27.5em;
-   background-color: aliceblue;
    padding: 2em;
    font-size: .8em;
    border-top: 1px solid $ltgrey;
-   // border-left: 1px solid $ltgrey;
 
    a {
       color: $blue;
