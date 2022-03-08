@@ -1,7 +1,7 @@
-{
-   "userName": "noahbrezel",
-   "firstName": "noah",
-   "lastName": "brezel",
+{"users":[{
+   "username": "noahbrezel",
+   "firstname": "noah",
+   "lastname": "brezel",
    "profilePic": "./profilePic_noah.jpg",
    "email": "noahbrezel@gmail.com",
    "password": "notagoodpassword",
@@ -71,5 +71,5 @@
          "like?": false,
          "comment?": false
       }
-   ]
+   ]}]
 }

@@ -1,5 +1,12 @@
-{
+{ 
+  "main": "main.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "ISC",
   "dependencies": {
+
     "@braze/web-sdk": "^3.5.0"
+
   }
 }
