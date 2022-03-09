@@ -46,8 +46,8 @@ populate()
 
 
 document.getElementById('pay').onclick = () => {
+   alert('Congrats on clicking the button!!')
    console.log('stop clicking this button!!!!')
-   // console.log(user.username)
 }
 
 // appboy.initialize({
