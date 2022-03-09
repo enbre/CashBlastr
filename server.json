@@ -1,8 +1,9 @@
-{"users":[{
+
+   {
    "username": "noahbrezel",
    "firstname": "noah",
    "lastname": "brezel",
-   "profilePic": "./profilePic_noah.jpg",
+   "profilePic": "/profilePic_noah.jpeg",
    "email": "noahbrezel@gmail.com",
    "password": "notagoodpassword",
    "balance": 226.93,
@@ -14,11 +15,11 @@
       "comments": "Thanks!",
       "sentFrom": {
          "userName": "noahbrezel",
-         "profilePic": "./profilePic_noah.jpg"
+         "profilePic": "/profilePic_noah.jpeg"
       },
       "sentTo": {
          "userName": "lisapierce",
-         "profilePic": "./profilePic_lisa.jpg"
+         "profilePic": "/profilePic_lisa.jpeg"
       },
       "like?": false,
       "comment?": false
@@ -30,11 +31,11 @@
          "comments": "Pizza, yum!",
          "sentFrom": {
             "userName": "greghammond",
-            "profilePic": "./profilePic_greg.jpg"
+            "profilePic": "/profilePic_greg.jpeg"
          },
          "sentTo": {
             "userName": "noahbrezel",
-            "profilePic": "./profilePic_noah.jpg"
+            "profilePic": "/profilePic_noah.jpeg"
          },
          "like?": true,
          "comment?": false
@@ -46,11 +47,11 @@
          "comments": "Love that movie!!!!",
          "sentFrom": {
             "userName": "noahbrezel",
-            "profilePic": "./profilePic_noah.jpg"
+            "profilePic": "/profilePic_noah.jpeg"
          },
          "sentTo": {
             "userName": "rachelmorson",
-            "profilePic": "./profilePic_rachel.jpg"
+            "profilePic": "/profilePic_rachel.jpeg"
          },
          "like?": true,
          "comment?": false
@@ -62,14 +63,13 @@
          "comments": "Great dinner!",
          "sentFrom": {
             "userName": "noahbrezel",
-            "profilePic": "./profilePic_noah.jpg"
+            "profilePic": "/profilePic_noah.jpeg"
          },
          "sentTo": {
             "userName": "ryansilbom",
-            "profilePic": "./profilePic_ryan.jpg"
+            "profilePic": "/profilePic_ryan.jpeg"
          },
          "like?": false,
          "comment?": false
       }
-   ]}]
-}
+   ]}

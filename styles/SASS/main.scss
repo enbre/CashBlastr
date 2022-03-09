@@ -58,26 +58,28 @@ body {
    }
 
    // border: 2px solid green;
-   &-text {
+   // &-text {
 
       // display: flex;
       // flex-direction: column;
       // border: 2px solid orange;
       // align-items: center;
       // justify-content: flex-start;
-      &>* {
-         // margin: 2em ;
-         // padding: 2em;
-         // border: 2px solid green;
+      // &>* {
+      //    // margin: 2em ;
+      //    // padding: 2em;
+      //    // border: 2px solid green;
 
-      }
-   }
+      // }
+   // }
 }
 
 #greeting {
    font-size: 1.2em;
    font-weight: 700;
    letter-spacing: 1.5px;
+   text-transform: capitalize;
+
 
 }
 
@@ -94,9 +96,9 @@ body {
       padding: .5em 0;
    }
 
-   &-balance {
-      // color: purple;
-   }
+   // &-balance {
+   //    // color: purple;
+   // }
 
    &-transfer {
       // color: green;

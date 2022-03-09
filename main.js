@@ -1,13 +1,44 @@
 console.log("insanity check")
-const serverUrl =   "http://localhost:3000/users"
-
-const request = new XMLHttpRequest();
-request.open("GET", "./server.json")
-request.onload = function() {
-   const users = JSON.parse(request.responseText)
-   // console.log(users.users[0].username)
+// const serverUrl = "http://localhost:3000/users"
+let user;
+const  populate = async () =>{
+   const requestURL = './server.json'
+   const request = new Request(requestURL);
+   const response = await fetch (request);
+   user = await response.json();
+   // console.log(user)
+   document.getElementById('username').innerHTML = `@${user.username}`;
+   document.getElementById('profilePic').src = `./assets/${user.profilePic}`;
+   document.getElementById('greeting').innerHTML = `Hi, ${user.firstname}`;
+   document.getElementById('balance').innerHTML = `$${user.balance} in CashBlastr`;
 }
-request.send();
+populate()
+
+// const username = 
+// const populateSidebar = (obj) => {
+//    const
+// }
+
+
+// let user;
+// const request = new XMLHttpRequest();
+// request.open("GET", "./server.json")
+// request.onload = function () {
+//    console.log(request.status)
+//    if (request.status >= 200 & request.status < 400) {
+//       user = JSON.parse(request.responseText)
+//    } else console.log('No data found')
+// }
+
+// request.onerror = function (){
+//    console.log("Connection error")
+// }
+// // renderHtml(user)
+// request.send();
+
+// const renderHtml = (user)=>{
+
+// }
 // import appboy from '@braze/web-sdk';
 // const appboy = require("@braze/web-sdk");
 
@@ -25,9 +56,9 @@ request.send();
 //    }
 // }
 
-document.getElementById('pay').onclick =()=> {
-   // alert('you clicked this')
+document.getElementById('pay').onclick = () => {
    console.log('stop clicking this button!!!!')
+   // console.log(user.username)
 }
 
 // appboy.initialize({
