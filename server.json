@@ -1,14 +1,14 @@
 
    {
-   "username": "noahbrezel",
-   "firstname": "noah",
-   "lastname": "brezel",
+   "userName": "noahbrezel",
+   "firstName": "noah",
+   "lastName": "brezel",
    "profilePic": "/profilePic_noah.jpeg",
    "email": "noahbrezel@gmail.com",
    "password": "notagoodpassword",
    "balance": 226.93,
    "active": "true",
-   "pendingActivty": [{
+   "pendingActivity": [{
       "transactionID": "12123812",
       "date": "02132022",
       "amount": "$15.23",
